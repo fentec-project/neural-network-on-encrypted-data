@@ -1,6 +1,6 @@
 # Evaluating a machine learning function with functional encryption - example
 
-This repository demonstrates how the  [SGP]() functional encryption (FE)
+This repository demonstrates how the  [SGP](https://eprint.iacr.org/2018/206.pdf) functional encryption (FE)
 scheme for evaluation of quadratic multi-variate polynomials can be used
 to evaluate a machine learning function on encrypted data. 
 
