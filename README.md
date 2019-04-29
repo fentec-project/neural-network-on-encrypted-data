@@ -72,23 +72,23 @@ $ pip install tensorflow numpy
 2. Navigate to the root of this repository and run the
 python training script:
 ````bash
-$ cd $GOPATH/src/github.com/fentec-project/fe-ml-example
+$ cd $GOPATH/src/github.com/fentec-project/neural-network-on-encrypted-data
 $ python mnist.py
 ````
 
 ## How to run the example
 1. Build the example by running:
     ````bash
-    $ go get github.com/fentec-project/fe-ml-example
+    $ go get github.com/fentec-project/neural-network-on-encrypted-data
     ````
-2. This will produce the `fe-ml-example` executable in your `$GOPATH/bin`.
+2. This will produce the `neural-network-on-encrypted-data` executable in your `$GOPATH/bin`.
 If you have `$GOPATH/bin` in your `PATH` environment variable, you
-will be able to run the example by running command `fe-ml-example` from the 
+will be able to run the example by running command `neural-network-on-encrypted-data` from the 
 root of this repository. 
 
     Otherwise just call:
     ```bash
-    $ $GOPATH/bin/fe-ml-example
+    $ $GOPATH/bin/neural-network-on-encrypted-data
     ```
     The example will output the predicted number behind the image 
     (encoded as a matrix in `testdata/mat_valid.txt`):
